@@ -1,5 +1,7 @@
 # NiftyNet - NFT Marketplace
 
+![NiftyNet Logo](images/icon.png)
+
 NiftyNet is a digital marketplace for buying, selling, and discovering exclusive digital assets from top artists in the NFT world. The platform offers categories like Music, Photography, Art, and Gaming, featuring top creators and sellers.
 
 ## Features
