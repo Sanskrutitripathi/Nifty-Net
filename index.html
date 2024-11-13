@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nifty Net</title>
+
+  <!-- FONT AWESOME ICONS-->
+  <script src="https://kit.fontawesome.com/873abd78fb.js" crossorigin="anonymous"></script>
+  <!-- custom css link -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@600;900&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="navbar-logo">
+        <p><img src="images/icon.png" width="60" height="48" alt="Nift Net Logo">NiftyNet</p>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <p class="navbar-title">Menu</p>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-navlink>Home</a>
+          </li>
+
+          <li>
+            <a href="#explore" class="navbar-link" data-navlink>Explore</a>
+          </li>
+
+
+          <li>
+            <a href="#instruction" class="navbar-link" data-navlink>Instruction</a>
+          </li>
+
+          <li>
+            <a href="#collection" class="navbar-link" data-navlink>Collection</a>
+          </li>
+
+          <li>
+            <a href="#top-seller" class="navbar-link" data-navlink>Top Creator</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-navlink>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="menu-open-btn"  data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="upcoming.html" class="btn">
+        <ion-icon name="wallet-outline"></ion-icon>
+      </a>
+
+      <a href="login.html" class="btn">
+        <span id="wallet">LogIn</span>
+      </a>
+
+      <a href="signup.html" class="btn">
+        <span id="wallet">SignUp</span>
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- HOME -->
+      <section class="hero" id="home">
+
+        <div class="container">
+
+          <h2 class="h1 hero-title">Discover, create, collect, and sell extraordinary NFTs</h2>
+
+          <p class="hero-text">
+            Explore on the world's best & largest NFT marketplace
+          </p>
+
+          <div class="btn-group">
+
+            <a href="#explore">
+            <button class="btn">
+              <ion-icon name="rocket-outline" aria-hidden="true"></ion-icon>
+              <span>Explore</span>
+            </button>
+            </a>
+
+            <a href="login.html">
+            <button class="btn">
+              <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
+              <span>Create</span>
+            </button>
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- EXPLORE -->
+      <section class="section explore" id="explore">
+        <div class="container">
+
+          <p class="section-subtitle">Exclusive Assets</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Explore</h2>
+
+            <a href="art.html" class="btn-link">
+              <span>Explore All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/a2.jpg" width="600" height="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Neon Serenity</h3>
+    
+                <span class="card-author">
+                  Owned By<b>John Deo</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">2.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/g2.jpg" width="600" height="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Zed Run</h3>
+    
+                <span class="card-author">
+                  Owned By <b>John Deo</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">2.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/p9.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">City Colors</h3>
+    
+                <span class="card-author">
+                  Owned By <b>George</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">2.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                  <video width="600" height="600" controls>
+                    <source src="images/m3.mp4" type="video/mp4">
+                  </video>
+                </figure>
+    
+                <h3 class="h3 card-title">Abstract</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Alex</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">2.5 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/g10.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Beyond Earth</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Alien</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/a8.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Modern Lady</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Johnson</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.69 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/a9.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Alone</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Nerd</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/g8.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Farworld Pioneers</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Johnson</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.69 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/a5.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Escapism</h3>
+    
+                <span class="card-author">
+                  Owned By<b>George</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/p2.jpg" width="600" height="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Entranced</h3>
+    
+                <span class="card-author">
+                  Owned By<b>Sammy</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">2.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                  <video width="600" height="600" controls>
+                    <source src="images/m1.mp4" type="video/mp4">
+                  </video>
+                </figure>
+    
+                <h3 class="h3 card-title">Blacktones</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Richard</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.5 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+    
+                <figure class="card-banner">
+                    <img src="images/p10.jpg" width="600" alt="image" class="img-cover">
+                </figure>
+    
+                <h3 class="h3 card-title">Fly</h3>
+    
+                <span class="card-author">
+                  Owned By <b>Mary</b>
+                </span>
+    
+                <div class="wrapper">
+                  <data class="wrapper-item">1.7 ETH</data>
+                </div>
+    
+                <button class="btn" onclick="window.location.href='upcoming.html'">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+    
+                  <span>Place a Bid</span>
+                </button>
+    
+              </div>
+            </li> 
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- INSTRUCTION -->
+      <section class="section instruction" id="instruction">
+        <div class="container">
+
+          <p class="section-subtitle">How It Works</p>
+
+          <h2 class="h2 section-title">Create and sell your NFTs</h2>
+
+          <ul class="grid-list">
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="wallet-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Set up your wallet</h3>
+
+              <p class="instruction-text">
+                Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the NFT Marketplace in the
+                top right corner.
+                Learn about the wallets we support.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="grid-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Create your collection</h3>
+
+              <p class="instruction-text">
+                Click Create and set up your collection. Add social links, a description, profile & banner images, and
+                set a secondary
+                sales fee.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="file-tray-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Add your NFTs</h3>
+
+              <p class="instruction-text">
+                Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs
+                with properties,
+                stats, and unlockable content.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">List them for sale</h3>
+
+              <p class="instruction-text">
+                Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to
+                sell your NFTs!
+              </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- COLLECTION -->
+      <section class="section collection" id="collection">
+        <div class="container">
+
+          <p class="section-subtitle">Most Popular</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Popular Collections</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="art.html" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="images/art.jpg" width="600" height="450" alt="Art" class="img-cover">
+                </figure>
+
+                <h3 class="h3 card-title">Art</h3>
+
+                <span class="card-text">...</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="gaming.html" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="images/gaming.jpg" width="600" height="450" alt="Gaming" class="img-cover">
+                </figure>
+
+                <h3 class="h3 card-title">Gaming</h3>
+
+                <span class="card-text">...</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="music.html" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="images/music.jpg" width="600" height="450" alt="Music" class="img-cover">
+                </figure>
+
+                <h3 class="h3 card-title">Music</h3>
+
+                <span class="card-text">...</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="photography.html" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="images/photography.jpg" width="600" height="450" alt="Photography" class="img-cover">
+                </figure>
+
+                <h3 class="h3 card-title">Photography</h3>
+
+                <span class="card-text">...</span>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- TOP CREATORS & SELLER -->
+      <section class="section top-seller" id="top-seller">
+        <div class="container">
+
+          <p class="section-subtitle">Creative Artist</p>
+
+          <h2 class="h2 section-title">Top Creators & Sellers</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c1.jpg" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@Isabella</h3>
+                  <p>Photography</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c2.png" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@ArtNox</h3>
+                  <p>Art</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c3.png" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@MuseBox</h3>
+                  <p>Music</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c4.png" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@PixelBlock</h3>
+                  <p>Gaming</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c5.png" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@SanSound</h3>
+                  <p>Music</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                    <img src="images/c6.png" width="64" height="64" alt="img">
+                </figure>
+
+                <div>
+                  <h3 class="card-title">@ArtBlock</h3>
+                  <p>Art</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="images/icon.png" width="68" height="48" alt="NFTC Logo">
+          </a>
+
+          <p class="footer-text">
+            Buy, sell and discover exclusive digital assets by the top artists of NFTs world.
+          </p>
+
+          <ul class="social-list">
+
+            <div class="footer-col">
+              <div class="social-links">
+                  <a href="upcoming.html"><i class="fab fa-facebook-f"></i></a>
+                  <a href="upcoming.html"><i class="fab fa-twitter"></i></a>
+                  <a href="upcoming.html"><i class="fab fa-instagram"></i></a>
+                  <a href="upcoming.html"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">About Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">All NFTs</a>
+          </li>
+
+          <li>
+            <a href="#instruction" class="footer-link">How It Works</a>
+          </li>
+
+          <li>
+            <a href="login.html" class="footer-link">Create</a>
+          </li>
+
+          <li>
+            <a href="#explore" class="footer-link">Explore</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy & Terms</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Community</p>
+          </li>
+
+          <li>
+            <a href="upcoming.html" class="footer-link">Help Center</a>
+          </li>
+
+          <li>
+            <a href="upcoming.html" class="footer-link">Suggestions</a>
+          </li>
+
+          <li>
+            <a href="upcoming.html" class="footer-link">Feedbacks</a>
+          </li>
+
+          <li>
+            <a href="upcoming.html" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="upcoming.html" class="footer-link">Newsletter</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Subscribe Us</p>
+  
+          <form action="" class="newsletter-form">
+            <input type="email" name="email" placeholder="info@yourmail.com" required class="newsletter-input">
+  
+            <button type="submit" class="newsletter-btn" aria-label="Submit">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </button>
+          </form>
+  
+        </div>
+
+      </div>    
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">NiftyNet</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <!-- JS LINK -->
+  <script src="script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
